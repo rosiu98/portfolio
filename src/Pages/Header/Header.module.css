@@ -60,3 +60,73 @@
 .title span {
   font-size: 5rem;
 }
+
+.box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.info {
+  background-color: white;
+  max-width: 370px;
+  position: relative;
+}
+
+.info:after {
+  content: url("./../../Assets/wing-right.svg");
+  position: absolute;
+  right: -28%;
+  top: -1px;
+}
+
+.content {
+  background-color: var(--color-delicius);
+  margin-top: 15rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 2rem;
+}
+
+.data {
+  flex: 1;
+}
+
+.data img {
+  margin-top: -5rem;
+  margin-bottom: 1rem;
+}
+
+.data h4 {
+  font-size: 1.4rem;
+  color: var(--color-dark);
+  margin-bottom: 0.5rem;
+}
+
+.data p {
+  color: #2f2f2f;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+}
+
+.button {
+  flex: 1 1 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding: 0.5rem 0;
+  background-color: var(--color-pink);
+  margin-bottom: 1.5rem;
+}
+
+.numer {
+  margin-top: 1rem;
+}
+
+.numer a {
+  color: #5e5e5e;
+}
+
+.numer a:first-child {
+  margin-right: 1rem;
+}

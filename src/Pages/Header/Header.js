@@ -17,9 +17,21 @@ export const Header = () => {
           </div>
         </div>
         <div className={HeaderCSS.box}>
-          <div className={HeaderCSS.container}>
-            {/* <img src={profile} alt="profile" /> */}
-            <div className={HeaderCSS.info}></div>
+          <div className={HeaderCSS.info}>
+            <div className={HeaderCSS.content}>
+              <div className={HeaderCSS.data}>
+                <img src={profile} alt="profile" />
+                <h4>@Paweł Rosiek</h4>
+                <p>Trying to improve in frontend as much i possible can .!</p>
+              </div>
+              <div className={HeaderCSS.numer}>
+                <a href="/">rosiu978@gmail.com</a>
+                <a href="/">784446401</a>
+              </div>
+              <a href="/" className={HeaderCSS.button}>
+                See more info about me!
+              </a>
+            </div>
           </div>
         </div>
       </div>

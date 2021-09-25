@@ -3,6 +3,12 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Lily+Script+One&display=swap");
 
+:root {
+  --color-delicius: #d2e2f9;
+  --color-pink: #fcbebe;
+  --color-dark: #000016;
+}
+
 * {
   margin: 0;
   padding: 0;
