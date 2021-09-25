@@ -1,0 +1,62 @@
+.header {
+  background-image: url("../../Assets/background.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 144rem;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 4rem;
+}
+
+.main {
+}
+
+.title {
+  position: relative;
+  max-width: 42rem;
+}
+
+.title h2 {
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 1.2;
+  padding: 1rem 3.5rem;
+  position: absolute;
+  display: inline-flex;
+  right: -30%;
+  top: -10%;
+  transform: rotate(3deg);
+  border-radius: 0 15px 15px 0;
+}
+
+.title h2:after {
+  content: url("./../../Assets/wing-left.svg");
+  position: absolute;
+  left: -25%;
+  top: -32%;
+}
+
+.title h1 {
+  background: rgba(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.6);
+  text-shadow: -5px 10px 4px rgba(255, 255, 255, 0.25);
+  padding: 2.5rem 5rem 2.5rem 3rem;
+  font-size: 3rem;
+  color: white;
+  font-family: Lily Script One;
+  font-weight: 400;
+  border-radius: 0px 0px 15px 15px;
+  max-width: 420rem;
+}
+
+.title span {
+  font-size: 5rem;
+}
