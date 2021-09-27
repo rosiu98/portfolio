@@ -5,7 +5,7 @@ import NavbarCSS from "./Navbar.module.css";
 export const Navbar = () => {
   return (
     <nav className={NavbarCSS.nav}>
-      <div className={NavbarCSS.nav}>
+      <div className={NavbarCSS.logo}>
         <img src={logo} alt="logo" />
       </div>
       <div className={NavbarCSS.links}>
