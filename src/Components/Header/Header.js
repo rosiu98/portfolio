@@ -20,14 +20,16 @@ export const Header = () => {
           <div className={HeaderCSS.info}>
             <div className={HeaderCSS.content}>
               <div className={HeaderCSS.data}>
-                <img src={profile} alt="profile" />
-                <h4>@Paweł Rosiek</h4>
-                <p>Trying to improve in frontend as much i possible can .!</p>
+                <div className={HeaderCSS.image}>
+                  <img src={profile} alt="profile" />
+                </div>
+                <div className={HeaderCSS.numer}>
+                  <a href="/">rosiu978@gmail.com</a>
+                  <a href="/">784446401</a>
+                </div>
               </div>
-              <div className={HeaderCSS.numer}>
-                <a href="/">rosiu978@gmail.com</a>
-                <a href="/">784446401</a>
-              </div>
+              <h4>@Paweł Rosiek</h4>
+              <p>Trying to improve in frontend as much i possible can .!</p>
               <a href="/" className={HeaderCSS.button}>
                 See more info about me!
               </a>

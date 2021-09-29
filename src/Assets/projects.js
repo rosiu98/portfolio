@@ -58,7 +58,7 @@ export const projects = [
     id: "2",
     github: "https://github.com/rosiu98/JablonskiLandingPage",
     website: "https://jablonski-naukajazdy.pl/",
-    image: "./../../images/jablonski-template2.png",
+    image: "./../../images/jablonski-template3.png",
     title: "Landing Page for Driving Instructor",
     description: "Pure vanilla javascript project with sass to style webiste.",
     tags: [

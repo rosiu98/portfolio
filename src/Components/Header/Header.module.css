@@ -14,9 +14,6 @@
   padding: 0 4rem;
 }
 
-/* .main {
-} */
-
 .title {
   position: relative;
   max-width: 42rem;
@@ -69,7 +66,7 @@
 
 .info {
   background-color: white;
-  max-width: 370px;
+  width: 370px;
   position: relative;
   box-shadow: 4px 22px 22px -4px rgba(77, 139, 233, 0.25);
 }
@@ -84,13 +81,13 @@
 .content {
   background-color: var(--color-delicius);
   margin-top: 15rem;
-  display: flex;
-  flex-wrap: wrap;
   padding: 0 2rem;
 }
 
 .data {
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .data img {
@@ -98,26 +95,26 @@
   margin-bottom: 1rem;
 }
 
-.data h4 {
+.content h4 {
   font-size: 1.4rem;
   color: var(--color-dark);
   margin-bottom: 0.5rem;
 }
 
-.data p {
+.content p {
   color: #2f2f2f;
   font-size: 1rem;
   margin-bottom: 2.5rem;
 }
 
 .button {
-  flex: 1 1 100%;
   width: 100%;
   text-align: center;
   color: white;
   padding: 0.5rem 0;
   background-color: var(--color-pink);
   margin-bottom: 1.5rem;
+  display: inline-block;
 }
 
 .numer {
@@ -130,4 +127,63 @@
 
 .numer a:first-child {
   margin-right: 1rem;
+}
+
+.image {
+  display: inline;
+}
+
+@media (max-width: 1440px) {
+  .header {
+    background-size: auto;
+  }
+
+  .container {
+    grid-template-columns: max-content max-content;
+    justify-content: space-between;
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 1150px) {
+  .container {
+    grid-template-columns: max-content;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1150px) {
+  .container {
+    grid-template-columns: max-content;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 700px) {
+  .title h2 {
+    position: unset;
+    transform: unset;
+  }
+
+  .title h2::after {
+    content: "";
+  }
+
+  .info::after {
+    display: none;
+  }
+
+  .container {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+
+  .box {
+    justify-content: unset;
+  }
+
+  .info {
+    flex: 1;
+    width: auto;
+  }
 }

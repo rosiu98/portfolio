@@ -1,5 +1,5 @@
 import React from "react";
-import { Header, Projects, Skills } from "../Components";
+import { About, Footer, Header, Projects, Skills } from "../Components";
 
 function Home() {
   return (
@@ -7,6 +7,8 @@ function Home() {
       <Header />
       <Projects />
       <Skills />
+      <About />
+      <Footer />
     </>
   );
 }

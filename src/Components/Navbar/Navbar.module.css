@@ -21,3 +21,9 @@
   font-size: 1.8rem;
   font-size: 600;
 }
+
+@media (max-width: 1000px) {
+  .links {
+    display: none;
+  }
+}

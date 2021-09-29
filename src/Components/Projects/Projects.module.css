@@ -3,6 +3,7 @@
   width: 80%;
   margin: 0 auto;
   margin-bottom: 14rem;
+  margin-top: 10rem;
 }
 
 .title {
@@ -21,6 +22,6 @@
 
 .cards {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   gap: 3.5rem;
 }
